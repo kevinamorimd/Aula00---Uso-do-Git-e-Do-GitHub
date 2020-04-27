@@ -1,15 +1,25 @@
 public class Aluno {
+	
+	
+	
 	private String nome;
 	private int id;
 
+	public Aluno(String nome, int id){
+		nome = nome;
+		id = id
+	}	
 	// Getters
 	public String getNome() {
 		return nome;
 	}
 
+	
 	public int getId() {
 		return id;
 	}
+	
+	
 	
 	
 	// Setters
